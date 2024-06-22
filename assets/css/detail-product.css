@@ -1,0 +1,73 @@
+@font-face{
+    font-family: "Poppins-Light";
+    src: url("../fonts/Poppins-Light.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Poppins-Light-Italic";
+    src: url("../fonts/Poppins-LightItalic.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Poppins-Medium";
+    src: url("../fonts/Poppins-Medium.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Poppins-Medium-Italic";
+    src: url("../fonts/Poppins-MediumItalic.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Poppins-Regular";
+    src: url("../fonts/Poppins-Regular.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Poppins-SemiBold";
+    src: url("../fonts/Poppins-SemiBold.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Montserrat-Bold";
+    src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Montserrat-Semibold";
+    src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Montserrat-Medium";
+    src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Montserrat-Regular";
+    src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  }
+  
+  @font-face{
+    font-family: "Montserrat-Light";
+    src: url("../fonts/Montserrat-Light.ttf") format("truetype");
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+
+  .detail-product .container .row .col-sm-4 h1 {
+    font-family: 'Poppins-Medium';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 124%;
+    letter-spacing: 2px;
+  }
+
+  .detail-product .container .row .col-sm-6 img.img-responsive {
+    width: 200px;
+    height: 200px;
+  }
